@@ -1,0 +1,10 @@
+[package]
+org = "kasthuriraajan"
+name = "azure_postgresql_sample"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+path = "./javalibs/postgresql-42.2.18.jar"
